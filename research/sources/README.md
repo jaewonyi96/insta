@@ -178,28 +178,29 @@
 | T2 | 증권사 리포트 | **markets.hankyung.com/consensus** · 네이버페이 증권 리서치(finance.naver.com/research) | 업계 판도 해설 카드의 근거 | **[개명] 한경 컨센서스 주소가 바뀜**(옛 hkconsensus.hankyung.com도 검색에 남아 있음). **[개명] 네이버 증권 → 네이버페이 증권**(도메인은 그대로, /research 경로는 [미검증], [근거](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4%20%EC%A6%9D%EA%B6%8C)). 차트 캡처와 PDF 재배포 금지, 투자 권유처럼 보이지 않게 |
 | T2 | 검색량 검증 도구 | datalab.naver.com · trends.google.com/trending?geo=KR | 커뮤니티에서만 뜨거운지, 대중도 찾는지 판단. 검색량 그래프를 직접 그리면 오리지널 카드가 됨 | 데이터랩·구글 트렌드 모두 [확인 2026-09]. 데이터랩은 조회 기간 최댓값을 100으로 둔 상대지수이고 절대 검색량은 웹·API 어디에도 없음. 기간·기기·연령 조건을 적음 |
 | T2 | 딜·부동산·자영업 커뮤니티 | fmkorea.com/hotdeal · clien.net/service/board/jirum · 네이버 카페 부동산스터디(cafe.naver.com/jaegebal) · 아프니까 사장이다(cafe.naver.com/jihosoccer123) | 딜, 대출 규제·청약 체감, 자영업 경기 체감 | 회원 전용 글은 캡처·인용 금지. 클리앙 알뜰구매 [확인 2026-09]. **아프니까 사장이다 주소 [확인 2026-09]**([근거](https://www.make2t.kr/2026/09/apeunikka-sajangida-naver-cafe.html)). 두 카페 모두 회원 수가 출처마다 엇갈림(부동산스터디 약 104만~163만, 아프니까 사장이다 78만~195만+) → 인용하려면 카페 첫 화면에서 확인 |
-| T3 | 정부·공공 (시즌·수시) | 재정경제부(mofe.go.kr), 국토교통부, 한국부동산원·청약홈(applyhome.co.kr), 국세청, KDI, 한국소비자원·참가격(price.go.kr), KOTRA 해외시장뉴스 | 세법 개정, 청약 캘린더, 연말정산(1월)·종합소득세(5월), 가격 비교, 'K제품 해외 반응' | **[개명] 기획재정부 → 재정경제부 + 기획예산처(2026-01-02)** |
-| T3 | 트렌드 리포트 (월 1회) | 대학내일20대연구소(20slab.org), 캐릿(careet.net), 오픈서베이(blog.opensurvey.co.kr/trendreport/), 트렌드모니터, KB금융 경영연구소·하나금융연구소, 썸트렌드(some.co.kr) | '요즘 20대는', '직장인 OO%' 데이터형 카드 | 조사 시기와 표본 명시. 썸트렌드는 2026-03 Claude용 MCP 출시 |
-| T3 | 『트렌드 코리아 2027』 | 도서(2026-09-30 출간). 전시 10/13~11/8(여의도), 강연 10/26 | **지금 쓸 시즌 소재:** 10월 첫 주 '2027 키워드 10개' | 도서 내용의 과도한 요약·전재 금지 |
-| T3 | 유통 현장 | 다이소몰 신상(daisomall.co.kr/ds/prir), 편의점 IG @cu_official·@gs25_official, 올리브영 랭킹 | '이번 주 편의점 신상', '재입고 요청 TOP3' | 제품 사진은 직접 촬영. 세븐일레븐·올리브영 핸들은 미확인 |
-| T3 | 톤·주제 참고 (경쟁) | 어피티 머니레터(uppity.co.kr), 뉴닉(newneek.co), 토스피드(toss.im/tossfeed), 슈카월드(@syukaworld), 삼프로TV(@3protv) | 이번 주 대중이 관심 갖는 돈 주제 가늠 | **경쟁 매체입니다.** 문장·구성 모방 금지. 영상 캡처·요약 재게시 금지 |
-| T3 | 생활 커뮤니티 | 월급쟁이부자들, 월재연(cafe.naver.com/onepieceholicplus), 네이트판, MLB파크 불펜, 디시 미국 주식 갤러리, 맘스홀릭, r/personalfinance | 세대·성별별 돈 체감 온도 | 회원 전용 글 인용 금지. 사연 진위 불명. '여론'으로 일반화하지 않음 |
+| T3 | 정부·공공 (시즌·수시) | 재정경제부(mofe.go.kr), 국토교통부, 한국부동산원·청약홈(applyhome.co.kr), 국세청, KDI, 한국소비자원·참가격(price.go.kr), KOTRA 해외시장뉴스 | 세법 개정, 청약 캘린더, 연말정산(1월)·종합소득세(5월), 가격 비교, 'K제품 해외 반응' | **[개명] 기획재정부 → 재정경제부 + 기획예산처(2026-01-02)** [확인 2026-09]. 그린북은 재정경제부 경제정책국이 계속 발간(9월호 2026-09-11). mofe.go.kr 도메인은 `econ_lifestyle.md` 1차 검증 근거. K-패스는 2026년 정액형 '모두의 카드'가 추가됐고, 10월 이후 환급 기준은 국토부 원문으로 확인 [미검증] |
+| T3 | 트렌드 리포트 (월 1회) | 대학내일20대연구소(20slab.org), 캐릿(careet.net), 오픈서베이(blog.opensurvey.co.kr/trendreport/), 트렌드모니터, KB금융 경영연구소·하나금융연구소, 썸트렌드(some.co.kr) | '요즘 20대는', '직장인 OO%' 데이터형 카드 | 조사 시기와 표본 명시. 썸트렌드는 2026-03-18 Claude용 MCP 출시(이후 ChatGPT Apps 승인, 2026-07 유료화) [확인 2026-07] |
+| T3 | 『트렌드 코리아 2027』 | 도서(2026-09-30 출간 [확인 2026-09]). 전시 10/13~11/8(영풍문고 여의도 IFC몰점), 강연 10/26(CGV 여의도) | **지금 쓸 시즌 소재:** 10월 첫 주 '2027 키워드 10개' | 도서 내용의 과도한 요약·전재 금지 |
+| T3 | 유통 현장 | 다이소몰 신상(daisomall.co.kr/ds/prir), 편의점 IG @cu_official·@gs25_official, 올리브영 랭킹(IG @oliveyoung_official) | '이번 주 편의점 신상', '재입고 요청 TOP3' | 제품 사진은 직접 촬영. 올리브영 IG @oliveyoung_official [확인 2026-09](글로벌·매거진 계정과 헷갈리지 말 것). **세븐일레븐 인스타 핸들은 [미검증]**(X @711korea, 페이스북 7elevenkorea만 확인) |
+| T3 | 톤·주제 참고 (경쟁) | 어피티 머니레터(uppity.co.kr, IG @uppity.official), 뉴닉(newneek.co), 토스피드(toss.im/tossfeed), 슈카월드(@syukaworld), 삼프로TV(@3protv) | 이번 주 대중이 관심 갖는 돈 주제 가늠 | **경쟁 매체입니다.** 문장·구성 모방 금지. 영상 캡처·요약 재게시 금지 |
+| T3 | 생활 커뮤니티 | 월급쟁이부자들(cafe.naver.com/wecando7 · weolbu.com/community), 월재연(cafe.naver.com/onepieceholicplus), 네이트판(pann.nate.com/talk/ranking), MLB파크 불펜, 디시 미국 주식 갤러리(?id=stockus, 보조 ?id=tenbagger), 맘스홀릭, r/personalfinance | 세대·성별별 돈 체감 온도 | 회원 전용 글 인용 금지. 사연 진위 불명. '여론'으로 일반화하지 않음. 월부 회원 35만은 2022년 수치. MLB파크 불펜 URL 형식은 [미검증] |
 
 ### 3-6. 한국 특화
 
 | 티어 | 소스 | 보는 곳 | 쓰는 이유 | 상태·주의 |
 |---|---|---|---|---|
-| **T1** | **GeekNews (긱뉴스)** | news.hada.io · RSS 설정 안내 hada.io/blog/geeknews-feed-rss · 월요일 위클리 news.hada.io/weekly · X @GeekNewsHada | 한국 테크 종사자의 필터를 한 번 거친 '한국에서 반응할 해외 소식' | [확인]. 요약문은 작성자 저작물 → 복사 금지, 원문으로 다시 씀 |
-| **T1** | **디시 특이점이 온다 갤러리** | gall.dcinside.com/mgallery/board/lists/?id=thesingularity ('개념글' 탭) | 해외 AI 발표가 **한국어로 가장 빨리** 번역되고, 한국 헤비유저의 반응 온도를 봄 | 닉네임·IP 가림, 번역 이미지 캡처 금지. 과장과 조롱이 많음 |
-| **T1** | **에펨코리아 포텐 + 더쿠 HOT** | fmkorea.com/best · theqoo.net/hot | 한국 대중에게 **실제로 먹히는** AI·돈·소비 소재 레이더. 'AI 호러'와 '두쫀쿠'가 여기서 먼저 뜸 | 퍼 온 글은 원출처까지 추적. 성별·정치·팬덤 갈등 소재는 피함. 캡처 금지 |
+| **T1** | **GeekNews (긱뉴스)** | news.hada.io · RSS `news.hada.io/rss/news`(설정 안내 hada.io/blog/geeknews-feed-rss) · 월요일 위클리 news.hada.io/weekly(구독 1.8만+) · X @GeekNewsHada | 한국 테크 종사자의 필터를 한 번 거친 '한국에서 반응할 해외 소식' | [확인](위클리 구독 수·X 핸들 재확인). RSS 주소는 재검증에서 추가([근거](https://hada.io/blog/geeknews-feed-rss/)). 요약문은 작성자 저작물 → 복사 금지, 원문으로 다시 씀 |
+| **T1** | **디시 특이점이 온다 갤러리** | gall.dcinside.com/mgallery/board/lists/?id=thesingularity ('개념글' 탭) | 해외 AI 발표가 **한국어로 가장 빨리** 번역되고, 한국 헤비유저의 반응 온도를 봄 | [확인 2026-09]. 나무위키에 따르면 2026년 코딩 글을 분리한 뒤 AI 코딩·도구 글은 AI 활용 갤러리로 옮겨 감(단일 출처) → 아래 T2 행과 같이 봄. 닉네임·IP 가림, 번역 이미지 캡처 금지. 과장과 조롱이 많음 |
+| **T1** | **에펨코리아 포텐 + 더쿠 HOT** | fmkorea.com/best(최신순) · fmkorea.com/best2(화제순) · theqoo.net/hot | 한국 대중에게 **실제로 먹히는** AI·돈·소비 소재 레이더. 'AI 호러'와 '두쫀쿠'가 여기서 먼저 뜸 | 에펨 포텐 [확인 2026-09](/best·/best2 구분은 페이지 제목으로 확인, [근거](https://www.fmkorea.com/best2)), 더쿠 HOT [확인 2026-07]. 퍼 온 글은 원출처까지 추적. 성별·정치·팬덤 갈등 소재는 피함. 캡처 금지 |
 | T2 | AI타임스 | aitimes.com (네이버 뉴스 언론사 구독) | 한국 AI 기업·정책 뉴스가 가장 많음. 해외 뉴스에 한국 맥락을 붙일 때 씀 | **aitimes.kr(인공지능신문)과 다른 매체.** RSS 주소는 미확인 |
 | T2 | X `08_한국` | @hunkims, @upstageai, @LG_AI_Research, @kchonyc 등(§4-1) | Solar Pro 4, K-EXAONE처럼 세계 순위와 연결되는 한국 모델 소식 | 자사 홍보 성격. **@NAVER__Cloud는 게시물 미확인** → 네이버 뉴스룸 우선 |
 | T2 | 국내 IT 매체 | ZDNet Korea(zdnet.co.kr), 전자신문(etnews.com), 블로터(bloter.net) — 네이버 언론사 구독 | 국내 AI 산업, 반도체, 정부 AI 정책 | 보도자료를 받아 쓴 기사는 구분 |
-| T2 | 아카라이브 ai101·alpaca | arca.live/b/ai101 · arca.live/b/alpaca | ai101은 언어모델 뉴스·팁, alpaca는 r/LocalLLaMA의 한국판 | ai101만 근거 있음. **다른 채널 주소는 [미검증]** |
-| T2 | 클리앙 새로운소식 | clien.net/service/board/news | IT에 밝은 3040 직장인의 국내외 기사 공유와 실무자 댓글 | [미검증](존재는 확실). 정치 댓글이 많음 |
-| T2 | 지피터스 + 조코딩 | gpters.org · youtube.com/@jocoding | 한국인의 AI 실전 활용 사례와 인터뷰 섭외 풀, 한국 대중이 반응하는 AI 뉴스 | 사례 인용은 작성자 허락. 조코딩은 협업 영상이 섞임 |
-| T3 | 해설·연구(한국어) | 튜링포스트 코리아(turingpost.co.kr), PyTorchKR 주간 논문(`discuss.pytorch.kr/c/news/14.rss`[미검증]), SPRi AI 브리프(spri.kr/posts?code=AI-Brief, 월간), 바이라인네트워크, 요즘IT, 디지털데일리 | 로만형 한국어 해설의 배경 지식, 정책 통계 | **튜링포스트 코리아는 [휴면 의심]**(2026년 글 미확인) |
-| T3 | 커뮤니티 보조 | 디시 챗지피티 갤러리(?id=chatgpt), 클리앙 AI당(clien.net/service/board/cm_ai), 커리어리(careerly.co.kr), 다음 카페 여성시대(역방향 확산 신호) | 한국인의 AI 놀이, 직장인 AI 활용 후기 | **커리어리는 [휴면 의심]**(2024-09 운영사 변경 뒤 활동 미확인). 여성시대는 캡처·인용 금지, 탐색용으로만 |
+| T2 | 디시 AI 활용 마이너 갤러리 **[복원]** | gall.dcinside.com/mgallery/board/lists/?id=ai_utilize ('개념글' 탭) | 특갤이 코딩 글을 막은 뒤 옮겨 온 헤비유저의 AI 코딩·도구 실사용 반응. 특갤과 같이 봄 | [확인 2026-09]. 1차 검증에서 '추정 주소'로 뺐으나 실제로 있어 `communities.md`에서 되살림([근거](https://m.dcinside.com/board/ai_utilize)). 활동량 순위는 [미검증]. 닉네임·IP 가림, 탈옥·NSFW 글 제외 |
+| T2 | 아카라이브 ai101·alpaca | arca.live/b/ai101 · arca.live/b/alpaca (참고: aiart, characterai, aivideo) | ai101은 언어모델 뉴스·팁, alpaca는 r/LocalLLaMA의 한국판 | 채널 5개(ai101, alpaca, aiart, characterai, aivideo) 주소 모두 확인. aivideo는 구독 1,961명으로 작음. aiart·characterai는 브랜드 안전상 참고만. 2026년 활동량은 [미검증] |
+| T2 | 클리앙 새로운소식 | clien.net/service/board/news | IT에 밝은 3040 직장인의 국내외 기사 공유와 실무자 댓글 | **공식 RSS 없음**(이용자가 만든 feedburner 피드는 [미검증], [근거](https://www.clien.net/service/board/lecture/11373731)) → 북마크로 봄. 2026년 글은 [미검증]. 정치 댓글이 많음 |
+| T2 | 지피터스 + 조코딩 | gpters.org · youtube.com/@jocoding | 한국인의 AI 실전 활용 사례와 인터뷰 섭외 풀, 한국 대중이 반응하는 AI 뉴스 | 지피터스 [확인 2026-09](AI 스터디 24기 모집, 유튜브 @gpters 있음. '국내 최대'는 자체 주장). 사례 인용은 작성자 허락. 조코딩은 협업 영상이 섞임 |
+| T3 | 해설·연구(한국어) | 튜링포스트 코리아(turingpost.co.kr), PyTorchKR 주간 논문(`discuss.pytorch.kr/c/news/14.rss`[미검증]), SPRi AI 브리프(spri.kr/posts?code=AI-Brief, 월간), 바이라인네트워크, 요즘IT, 디지털데일리 | 로만형 한국어 해설의 배경 지식, 정책 통계 | **튜링포스트 코리아 [확인 2026-04]**(FOD#133 CES 2026, FOD#144 GTC 2026, 2026-04-15 글, [근거](https://turingpost.co.kr/p/nvidia-gtc-2026)). PyTorchKR 주간 논문은 2026-07-13~19호까지 확인 [확인 2026-07], 8~9월 호와 RSS 주소는 [미검증] |
+| T3 | 커뮤니티 보조 | 디시 챗지피티 갤러리(?id=chatgpt), 클리앙 AI당(clien.net/service/board/cm_ai), 커리어리(careerly.co.kr), 다음 카페 여성시대(역방향 확산 신호) | 한국인의 AI 놀이, 직장인 AI 활용 후기 | 챗지피티 갤러리 [확인](게시글·나무위키 문서로 재확인. 관련 갤러리 chatgptpro·4o·chatgptmini도 있음). 클리앙 AI당은 게시판만 확인, 최근 활동은 [미검증]. **커리어리는 [휴면 의심]**(사이트는 운영 중이고 2026 채용 글이 있으나 커뮤니티 활동량은 [미검증]). 여성시대(회원 약 72만, 2026-03 검색 요약)는 캡처·인용 금지, 탐색용으로만 |
 
 **벤치마크 (뉴스 소스 아님, 주 1회 형식 분석만)**
 - BZCF 텔레그램 `t.me/s/bzcftel`과 bzcf.io
@@ -212,22 +213,26 @@
 | 대상 | 상태 | 조치 |
 |---|---|---|
 | xAI | **2026-07-06 SpaceXAI로 개명**(X 핸들 포함) | @xai로 만든 리스트를 @SpaceXAI로 갱신 |
-| LMArena | **2026-01-28 Arena(arena.ai)로 개명.** @lmarena_ai의 최근 확인 게시물은 2025-09 | arena.ai 변경 로그로 대체. X 핸들은 직접 확인 |
+| LMArena | **2026-01-28 Arena(arena.ai)로 개명.** X 핸들도 @lmarena_ai → **@arena**로 바뀌었고 활동 중 [확인 2026-06] | 변경 로그는 arena.ai/blog/leaderboard-changelog. `03` 리스트의 @lmarena_ai를 @arena로 교체 |
 | Papers with Code | **2025-07-24 종료** | HF Papers(Trending)로 대체 |
 | Sora (@soraofficialapp) | 종료. 앱 2026-04-26, API 2026-09-24 | 리스트에서 제외 |
 | @NVIDIAAIDev | 보관 처리됨 | @NVIDIAAI |
-| @_akhaliq | 최근 확인 2024-09 | @HuggingPapers |
 | @legit_api | 최근 확인 2025-06, 근거 없는 리크 서술 | 제거함 |
 | Higgsfield (@higgsfield_ai) | 2026-02-09 X 계정 정지 | 현재 핸들 미확인 |
-| @rowancheung, @TheRundownAI | 2026년 X 게시물 미확인 | 뉴스레터를 주 채널로 |
-| @MistralAI(2025-06), @runwayml(2025-12), @suno(2025-09), @AngryTomtweets 본인(2025-07), @bilawalsidhu | 2026년 X 게시물이 검색에 없음 | 공식 블로그, 릴리스 노트, 다른 플랫폼 우선 |
-| Import AI(2026-06), AINews(2026-02), 튜링포스트 코리아, AI Explained, Latent Space, 더밀크, 롱블랙, 디스콰이엇, 커리어리 | 최근 발행이 확인되지 않음 | 구독·팔로우 전에 최근 발행일 확인 |
+| @TheRundownAI | 2026년 X 게시물 [미검증](@rowancheung은 2026-04-27 게시물 확인) | 뉴스레터를 주 채널로 |
+| @runwayml(2025-12), @suno(2025-09), @AngryTomtweets 본인(2025-07), @bilawalsidhu | 2026년 X 게시물 [미검증]. Runway·Suno 회사는 2026년에도 출시 활동 중 | 공식 블로그, 릴리스 노트, 다른 플랫폼 우선 |
+| AI Explained, 커리어리 | 최근 발행·활동이 확인되지 않음 [미검증] | 구독·팔로우 전에 최근 발행일 확인 |
+| 디스콰이엇 | **[종료 의심]** 2025-10-30 픽셀릭 인수 보도, THE VC에 2025-12 폐업 표기(검색 요약) | 최근 글 날짜를 확인하기 전에는 아카이브로만 참고 |
+| 휴면 의심 해제(2026-09-30 재검증) | Import AI(474호, 2026-09-28), AINews(2026-09-09호, Latent Space 섹션), Latent Space, @_akhaliq(2026-09), @MistralAI(2026-09-04), 튜링포스트 코리아(2026-04), 더밀크(CES 2026), 롱블랙(2026 새 기능) | 플래그 해제. 월 1회 휴면 점검 대상에서 뺌 |
+| GummySearch (Reddit 구독자 수 출처) | 2025-11-30 서비스를 닫았고 2026-12-01 완전 종료 예정(제3자 글) | 구독자 수는 prowlo·subredditstats나 서브레딧 페이지에서 기준일과 함께 확인 |
+| 네이버 뉴스 '많이 본 뉴스' | 전체·섹션별 랭킹 2020-11 폐지. 언론사별 랭킹만 남음 | '경제 섹션 + 언론사별 랭킹'으로 봄 |
+| 네이버 증권 | **네이버페이 증권**으로 서비스명 변경(도메인 finance.naver.com 그대로) | 출처 표기 이름만 바꿈 |
 | 통계청 | **2025-10-01 국가데이터처로 승격**(mods.go.kr) | 기관명 표기 변경 |
 | 기획재정부 | **2026-01-02 재정경제부(mofe.go.kr)와 기획예산처로 분리** | 세제·경제정책은 재정경제부, 예산은 기획예산처 |
-| 보조금24 | **정부24+ 혜택알리미**로 개편 | plus.gov.kr/portal/benefitV2/ |
+| 보조금24 | **[개편]** 보조금24(맞춤형 혜택 조회)는 남아 있고, 2025-12-10부터 **정부24+ 혜택알리미**가 받을 수 있는 혜택을 먼저 알려 줌 | 혜택알리미 plus.gov.kr/portal/benefitV2/ 를 주로 보고, 조회는 보조금24도 가능 |
 | 한경 컨센서스 | markets.hankyung.com/consensus로 이동 | 북마크 교체 |
 | The Neuron | 주소 theneuron.ai, 2025-01 TechnologyAdvice에 인수 | 광고·제휴 콘텐츠 구분 |
-| 인물 직함 | Hassabis(2026-08-05 DeepMind 의장 겸 Alphabet 수석과학자), Karpathy(2026-05-19 Anthropic 합류), Nathan Lambert(2026-06 Ai2 떠남), 조경현(2026-01 Genentech 떠남), Cursor(2026-06 SpaceX가 인수) | 인용 카드의 직함을 최신화 |
+| 인물 직함 | Hassabis(2026-08-05 DeepMind 의장 겸 Alphabet 수석과학자), Karpathy(2026-05-19 Anthropic 합류), Nathan Lambert(2026-06 Ai2 떠남), 조경현(2026-01-16 Genentech 떠나 NYU 복귀), Cursor(2026-06-16 SpaceX 인수 발표, 2026-08-14 인수 완료) | 인용 카드의 직함을 최신화 |
 
 ---
 
@@ -244,7 +249,7 @@
 |---|---|---|
 | `01_공식발표` | OpenAI, OpenAIDevs, ChatGPTapp, AnthropicAI, claudeai, ClaudeDevs, GoogleDeepMind, GeminiApp, Google, AIatMeta, SpaceXAI, grok, perplexity_ai | 아침·밤 |
 | `02_핵심인물` | sama, OfficialLoganK, koraykv, demishassabis, karpathy, bcherny, AravSrinivas, emollick, ClementDelangue | 밤 |
-| `03_리크·벤치마크` | testingcatalog, btibor91, chetaslua, scaling01, ArtificialAnlys, lmarena_ai | 아침 |
+| `03_리크·벤치마크` | testingcatalog, btibor91, chetaslua, scaling01, ArtificialAnlys, arena(구 lmarena_ai) | 아침 |
 | `04_큐레이터·해설` | kimmonismus, rohanpaul_ai, HuggingPapers, _akhaliq, vitrupo, rowancheung, TheRundownAI, simonw, WesRoth | 주 2~3회 |
 | `05_바이럴·크리에이티브` | minchoi, venturetwins, EHuanglu, AngryTomtweets, AISafetyMemes, bilawalsidhu, midjourney, runwayml, Kling_ai, pika_labs, Hailuo_AI, LumaLabsAI, bfl_ml, suno, ElevenLabs | 밤 |
 | `06_중국·오픈모델` | deepseek_ai, Alibaba_Qwen, Kimi_Moonshot, Zai_org, MiniMax_AI, MistralAI, huggingface, op7418 | 주 2~3회 |
@@ -254,10 +259,10 @@
 
 - **알림은 6개만 켭니다:** @OpenAI, @sama, @AnthropicAI, @GoogleDeepMind(또는 @OfficialLoganK), @deepseek_ai, @testingcatalog
 - **팔로우 전에 확인할 것**
-  - @AIatMeta와 @metaai 중 어느 쪽이 현재 계정인지
-  - @lmarena_ai가 개명했는지
+  - @AIatMeta와 @metaai 중 어느 쪽이 현재 계정인지 [미검증](재검증 검색에서 둘 다 'AI at Meta'로 나옴)
   - @Kimi_Moonshot, @Zai_org, @MiniMax_AI의 인증 배지
-  - `09` 리스트 매체 핸들 전체(`econ_lifestyle.md`·`newsletters_media.md`에서는 미검증, 존재는 확실)
+  - `09` 리스트 매체 핸들 가운데 @WSJ, @Reuters, @TheEconomist, @BusinessInsider 등 [미검증](존재는 확실). @business와 @FT는 `econ_lifestyle.md` 재검증에서 확인(@business와 별도로 @Bloomberg 계정도 있음)
+  - (해결) @lmarena_ai는 @arena로 개명 확인 → `03` 리스트에 반영함
 - **리스트를 콘텐츠로 묶는 순서:** 01·03(무슨 일이 일어났나) → 02·04(왜 중요한가) → 05(사람들이 뭘 만들었나) → 07·08·09(돈과 한국에는 어떤 의미인가). 이 네 단계를 한 이슈에 적용하면 캐러셀 한 편이 됩니다.
 
 ### 4-2. RSS 리더 (Feedly 또는 Inoreader) 폴더 구조
@@ -270,10 +275,10 @@
 | `01_AI-공식` | `https://openai.com/news/rss.xml` · blog.google/technology/ai/ · deepmind.google | 아침 |
 | `02_AI-뉴스` | the-decoder.com · `techcrunch.com/feed/`[미검증] · theverge.com/ai-artificial-intelligence | 아침·밤 |
 | `03_AI-해설` | `oneusefulthing.org/feed` · simonwillison.net · `interconnects.ai/feed` · jack-clark.net · `latent.space/feed` · `dwarkesh.com/feed` · `lennysnewsletter.com/feed` · `bensbites.com/feed` | 주 2~3회 |
-| `04_글로벌-커뮤니티` | `https://hnrss.org/newest?points=100` · `https://hnrss.org/frontpage` · Reddit 피드(§4-4) · `producthunt.com/feed`[미검증] · GitHub Trending(mshibanami.github.io/GitHubTrendingRSS/에서 일간 피드 선택) · HF Papers 비공식 `papers.takara.ai/api/feed`[미검증] | 아침·밤 |
-| `05_비즈니스` | techmeme.com(`techmeme.com/feed.xml`[미검증]) · platum.kr · 404media.co | 밤 |
-| `06_한국-AI·테크` | GeekNews(주소는 hada.io/blog/geeknews-feed-rss 안내대로) · `discuss.pytorch.kr/c/news/14.rss`[미검증] · bloter.net | 아침 |
-| `07_경제·돈` | `https://www.yna.co.kr/rss/economy.xml` · `https://www.korea.kr/rss/pressrelease.xml` · 한국경제 섹션 피드(`https://www.hankyung.com/feed`에서 선택) · 매일경제(사이트 RSS 페이지에서 선택) | 아침 |
+| `04_글로벌-커뮤니티` | `https://hnrss.org/newest?points=100` · `https://hnrss.org/frontpage` · Reddit 피드(§4-4) · `producthunt.com/feed`(Atom, 3자 가이드로 확인) · GitHub Trending(mshibanami.github.io/GitHubTrendingRSS/에서 일간 피드 선택) · HF Papers 비공식 `papers.takara.ai/api/feed`[미검증](takara-ai/papers-api는 있으나 2026년 작동은 미확인) | 아침·밤 |
+| `05_비즈니스` | techmeme.com(`techmeme.com/feed.xml`, 피드 디렉터리 등록으로 확인) · platum.kr · 404media.co | 밤 |
+| `06_한국-AI·테크` | GeekNews `news.hada.io/rss/news`(설정 안내 hada.io/blog/geeknews-feed-rss) · `discuss.pytorch.kr/c/news/14.rss`[미검증] · bloter.net | 아침 |
+| `07_경제·돈` | `https://www.yna.co.kr/rss/economy.xml`(제3자 문서로만 확인, 등록 전 작동 확인) · `https://www.korea.kr/rss/pressrelease.xml` · 한국경제 섹션 피드(`https://www.hankyung.com/feed`에서 선택) · 매일경제(사이트 RSS 페이지에서 선택) | 아침 |
 | `08_유튜브` | 형식 `https://www.youtube.com/feeds/videos.xml?channel_id=채널ID` · 확인된 ID: Two Minute Papers `UCbfYPyITQ-7l4upoX8nvctg`, Last Week in AI `UCKARTq-t5SPMzwtft8FWwnA`, AI타임스 `UCxKaTFMQcCg4kA_oHLGbNxQ`, 조코딩 `UCQNE2JmbasNYbjGAcuBiRRg`, EO Korea `UCQ2DWm5Md16Dc3xRwwhVE7Q` | 주 2~3회 |
 | `09_알림` | 구글 알리미 RSS(§4-6) | 아침 |
 
@@ -285,7 +290,7 @@
 |---|---|---|
 | `AI-NL` | The Rundown AI, TLDR AI, Axios AI+, The Neuron, Ben's Bites, AINews, Import AI, Last Week in AI, The Batch, MIT TR(The Algorithm, The Download), 404 Media, Epoch Brief | 밤(한국 저녁~밤 도착) |
 | `BIZ-NL` | Bloomberg·FT·The Information 무료 헤드라인, Stratechery 무료 글, Platformer, a16z, Lenny's, Morning Brew, CB Insights, 아웃스탠딩, 플래텀 | 밤 |
-| `KR-AI` **[추가]** | GeekNews 위클리(월요일 아침), 튜링포스트 코리아, 요즘IT, 바이라인네트워크 | 월요일 아침, 주 2~3회 |
+| `KR-AI` **[추가]** | GeekNews 위클리(월요일 아침, 구독 1.8만+), 튜링포스트 코리아, 요즘IT, 바이라인네트워크 | 월요일 아침, 주 2~3회 |
 | `KR-ECON` | 어피티 머니레터, 뉴닉, 캐릿 트렌드레터, 정책브리핑 뉴스레터(korea.kr/newsletter/) | 아침 |
 
 - **요약 뉴스레터는 소재 찾기에만 씁니다.** 사실은 공식 발표나 원 기사로 다시 확인합니다.
@@ -294,13 +299,15 @@
 ### 4-4. Reddit·Hacker News 필터
 
 - **Reddit**
-  - 형식은 `https://www.reddit.com/r/<서브레딧>/top/.rss?t=day`입니다. 주간은 `t=week`입니다. 2026년 작동 여부는 **[미검증]**입니다.
+  - 형식은 `https://www.reddit.com/r/<서브레딧>/top/.rss?t=day`입니다. 주간은 `t=week`입니다. 공개 `.rss` 엔드포인트는 2023년 API 유료화 뒤에도 남아 **2026년에도 작동**한다는 3자 가이드가 있습니다(서브레딧·사용자·검색 URL, top 정렬과 `t=` 필터 지원. 공식 문서는 아님, [근거](https://www.wprssaggregator.com/reddit-rss-feed/)).
   - 일간(`t=day`): LocalLLaMA, singularity, ChatGPT, aivideo, OpenAI, ClaudeAI, GeminiAI, StableDiffusion
   - 주간(`t=week`): MachineLearning, aiArt, artificial, Entrepreneur, personalfinance
   - r/LocalLLaMA는 'New Model' 같은 플레어 위주로 봅니다.
   - 리더에서 막히면 Reddit 앱 알림이나 AINews 요약으로 대신합니다.
+  - **구독자 수 출처 주의:** 그동안 쓰던 GummySearch는 Reddit API 상업 라이선스를 받지 못해 2025-11-30에 문을 닫았고, 제3자 글에 따르면 2026-12-01에 완전히 종료됩니다([근거](https://gummysearch.com/docs/gummysearch-is-now-closed-6533h)). 앞으로는 prowlo, subredditstats 같은 대안이나 서브레딧 페이지에서 **기준일과 함께** 확인합니다. r/artificial처럼 사이트마다 수치가 크게 엇갈리는 곳(130만 vs 43만)도 있습니다.
 - **Hacker News (hnrss)**
-  - `points=100`으로 잡음을 거릅니다. 키워드 피드는 `q=`를 씁니다(예: `https://hnrss.org/newest?q=OpenAI`). 파라미터는 `&`로 조합한다고 알려져 있습니다 **[미검증]**.
+  - `points=100`으로 잡음을 거릅니다. 키워드 피드는 `q=`를 씁니다(예: `https://hnrss.org/newest?q=OpenAI`).
+  - hnrss.org 문서로 확인한 파라미터: `q=`, `points=`, `comments=`, `count=`(기본 20, 최대 100). `&`로 조합합니다(예: `https://hnrss.org/newest?q=AI&points=100&comments=20`). 주소 끝에 `.atom`·`.jsonfeed`를 붙이면 다른 형식으로 받습니다([근거](https://hnrss.org/)).
   - 한국 기업 키워드(예: Samsung, Naver)를 따로 걸어 두면 '한국 각도' 소재가 걸립니다.
 - **인용 원칙:** 'r/LocalLLaMA에서는 ~라는 반응이 많았다'처럼 **장소를 한정**합니다. u/아이디는 허락을 받았을 때만 적습니다.
 
@@ -308,7 +315,7 @@
 
 | 도구 | 넣을 것 |
 |---|---|
-| **북마크 폴더 `KR-커뮤니티`** | 에펨코리아 포텐(fmkorea.com/best), 더쿠 HOT(theqoo.net/hot), 특이점 갤러리 개념글, 뽐뿌 재테크포럼, 클리앙 새로운소식, 에펨코리아 핫딜 |
+| **북마크 폴더 `KR-커뮤니티`** | 에펨코리아 포텐(fmkorea.com/best 최신순, /best2 화제순), 더쿠 HOT(theqoo.net/hot), 특이점 갤러리·AI 활용 갤러리 개념글, 뽐뿌 재테크포럼, 클리앙 새로운소식(공식 RSS 없음), 에펨코리아 핫딜 |
 | **로그인 브라우저 프로필 하나** | 블라인드, 네이버 카페(부동산스터디, 월부, 아프니까 사장이다), 다음 카페 여성시대, 아카라이브 |
 | **알구몬 키워드 알림** | 딜·앱테크 키워드(예: 특판, 적금, 앱테크) |
 | **네이버 카페 앱 키워드 알림 [미검증]** | 가입한 카페의 게시판 키워드. 기능 이름과 범위는 앱에서 확인 |
@@ -392,13 +399,13 @@
 
 | 시간 | 분 | 할 일 | 소스 (T1 중심) | 산출물 |
 |---|---|---|---|---|
-| 07:30 | 20 | **밤사이 미국 + 오늘 한국 스캔** | X 알림 6개와 `01`·`03` 리스트, 리더 `01_AI-공식`, hnrss points=100, Reddit 일간(ChatGPT, aivideo), HF Papers Daily → GeekNews, 특갤 개념글 → 연합뉴스 경제 RSS, 정책브리핑 RSS, 네이버 경제 랭킹 | 소재 후보 5~8개를 인박스에 |
+| 07:30 | 20 | **밤사이 미국 + 오늘 한국 스캔** | X 알림 6개와 `01`·`03` 리스트, 리더 `01_AI-공식`, hnrss points=100, Reddit 일간(ChatGPT, aivideo), HF Papers Daily → GeekNews, 특갤 개념글 → 연합뉴스 경제 RSS, 정책브리핑 RSS, 네이버 경제 섹션 + 언론사별 랭킹 | 소재 후보 5~8개를 인박스에 |
 | 07:50 | 5 | **1차 채점** | §6 체크리스트 | 오늘 제작 1~2개, 내일 후보 2~3개 |
 | 12:30 | 10 | **한국 대중 반응** | 에펨코리아 포텐, 더쿠 HOT, 뽐뿌 재테크포럼 + 알구몬 | 후보의 '한국 각도' 메모, 새 소비·딜 소재 |
 | 15:00 | 5 | **검증** | 네이버 데이터랩·구글 트렌드로 관심 확인 → 원자료(DART, KOSIS, 공식 블로그, 보도자료 원문) → 독립 소스 2개 | 체크리스트의 '검증 가능성' 확정, [루머] 여부 결정 |
 | 21:00 | 15 | **미국 아침 + 다음 날 준비** | The Rundown AI(누락 점검), Techmeme, X `02`·`05`·`07`·`09` 리스트 | 내일 아침 게시물 확정, 인박스 정리 |
 
-- **최소판 30분:** 07:30 스캔 15분(알림, `01` 리스트, GeekNews, 연합뉴스 경제, 네이버 경제 랭킹) + 21:00 15분(The Rundown AI, Techmeme, 에펨·더쿠 훑기)
+- **최소판 30분:** 07:30 스캔 15분(알림, `01` 리스트, GeekNews, 연합뉴스 경제, 네이버 경제 섹션·언론사별 랭킹) + 21:00 15분(The Rundown AI, Techmeme, 에펨·더쿠 훑기)
 - **속보가 터진 날**(대형 모델 출시, 금통위, 대형 공시)은 T2·T3를 건너뛰고 해당 이슈의 '예고 → 발표 → 정리' 3연속 게시에 집중합니다.
 
 ### 5-3. 주간 루틴
@@ -468,16 +475,18 @@
 
 ### 7-1. 먼저 알아야 할 인스타 정책
 
-- **2026-04-30부터** 자기가 만들지 않은 콘텐츠를 반복해서 올리거나, 남의 작업을 주로 사진·캐러셀로 올리는 계정은 앱 전반의 **추천(비팔로워 노출)에서 제외**됩니다(TechCrunch·Tubefilter 2026-04-30).
+- **2026-04-30부터** 자기가 만들지 않은 콘텐츠를 반복해서 올리거나, 남의 작업을 주로 사진·캐러셀로 올리는 계정은 앱 전반의 **추천(비팔로워 노출)에서 제외**됩니다(TechCrunch·Tubefilter 2026-04-30, [확인 2026-09]).
+  - 릴스에 있던 보호 장치를 사진·캐러셀로 넓힌 것입니다. 적용 범위는 메인 피드와 탐색 탭의 추천이고, 기존 팔로워에게 보이는 방식은 바뀌지 않습니다.
+  - 라이선스 계약이 있거나 원작자의 명시적 허락을 받은 퍼블리셔는 적용에서 빠집니다([근거](https://techcrunch.com/2026/04/30/instagram-restricts-reach-of-content-aggregators-in-new-crackdown/)).
 - **오리지널로 인정되지 않는 것**
   - 테두리·워터마크 추가, 같은 언어 자막, 보이는 내용을 설명만 하는 캡션
   - **출처를 적어도 남의 게시물 스크린샷을 올리는 것**
   - 실용 테스트: "내 기여를 빼도 콘텐츠가 거의 그대로면 오리지널이 아니다"
 - **오리지널로 인정되는 것:** 직접 만들었거나 실질적으로 변형한 콘텐츠, 직접 디자인한 가이드·스토리텔링형 시각 콘텐츠
-- **복구 조건:** 최근 30일 게시물의 대부분이 오리지널이면 다시 추천 대상이 됩니다. **설정 > 계정 상태**에서 확인합니다.
+- **복구 조건:** 최근 30일(롤링) 동안 올린 사진·캐러셀·릴스의 대부분이 오리지널이면 다시 추천 대상이 됩니다. **설정 > 계정 상태**에서 확인하고 이의를 제기할 수 있습니다.
 - **남의 콘텐츠를 소개할 때** 인스타가 권장하는 방법은 두 가지입니다.
   - **네이티브 리포스트 버튼**(2025-08-06 출시, 원작자 자동 크레딧)
-  - **콜라보(공동 작업자) 태그**(최대 5개 계정 초대)
+  - **콜라보(공동 작업자) 태그**(최대 5개 계정 초대. 초대는 14일 안에 수락하지 않으면 만료되고, 원작성자를 5명에 포함하는지는 출처마다 다름)
 - 근거: `../best-practices.md` §1-2, 5-2. 공식 가이드는 creators.instagram.com/original-content-guidelines입니다.
 
 **원칙 한 줄: 사실 추출 → 내 문장으로 재작성 → 내 해설 추가 → 직접 디자인 → 출처 표기.** 이 방식이 저작권 리스크와 추천 제외 리스크를 동시에 줄입니다.
@@ -554,7 +563,7 @@ Thank you!
 
 - **소스 흐름** (`x_ai.md`)
   - 2026-09-28: @sama가 DevDay 전날 예고
-  - 2026-09-29: OpenAI DevDay. CNBC·9to5Mac 보도에 따르면 상시 에이전트 'dots', GPT-6.1 Sol 등 20여 건을 발표
+  - 2026-09-29: OpenAI DevDay. CNBC·9to5Mac 보도에 따르면 상시 에이전트 'dots', GPT-6.1 Sol 등 20여 건을 발표 [확인 2026-09](CNBC·9to5Mac·Axios)
   - 사전에 TestingCatalog가 같은 에이전트를 'o'라는 이름으로 예고했음
 - **확인**
   - openai.com/news RSS의 공식 글, @OpenAI 원 게시물, 릴리스 노트로 기능별 사실과 **한국 적용 여부**를 확인합니다.
@@ -593,7 +602,7 @@ Thank you!
 
 ### 예시 3. 경제 보도자료 → 돈 정보 카드뉴스 (경제·돈)
 
-- **소스 흐름:** 정책브리핑 보도자료 RSS에 금융위원회의 청년 금융상품 보도자료(예: 청년미래적금 같은 제도)가 올라옵니다. 이 카드의 구체 조건은 모두 **보도자료 원문으로 채울 자리**입니다. 이 README는 제도 내용을 확인하지 않았습니다.
+- **소스 흐름:** 정책브리핑 보도자료 RSS에 금융위원회의 청년 금융상품 보도자료(예: 청년미래적금 같은 제도)가 올라옵니다. 이 카드의 구체 조건은 모두 **보도자료 원문으로 채울 자리**입니다. `econ_lifestyle.md` 재검증은 청년미래적금이 2026-06-22 출시됐다는 것(만 19~34세, 3년 만기, 월 최대 50만 원)까지만 은행 블로그 기준으로 확인했습니다. 게시 전에 금융위 원문으로 다시 확인합니다.
 - **확인**
   - 보도자료 원문(PDF)과 금융위 사이트에서 대상, 금액, 기간, 신청처를 확인합니다.
   - 연합뉴스 경제 보도로 교차 확인합니다.
@@ -623,17 +632,17 @@ Thank you!
 | `README.md` (이 파일) | 소스 맵, Tier 표, 셋업, 루틴, 체크리스트, 저작권, 변환 예시 | 처음 셋업할 때, 주간 회고 때 |
 | [`x_ai.md`](x_ai.md) | X 계정 55개 검증본. 최근 활동 날짜, 비공개 리스트 8개 구성, 알림 전략, Top 10, 제거·보류 계정 | X 리스트를 만들고 갱신할 때 |
 | [`source-tracing.md`](source-tracing.md) | 4개 계정 게시물의 원본 역추적(BZCF 14건, 에크케 9건), 시차, 가공 방식, 출처 표기 관행 | 경쟁 계정의 소싱 방식을 참고할 때 |
-| [`communities.md`](communities.md) | 커뮤니티·애그리게이터 45행(HN, Reddit, HF, GeekNews, 디시, 에펨, 더쿠, 뽐뿌, 블라인드 등). RSS 형식, 인용 원칙 | 커뮤니티 모니터링과 인용 원칙 |
+| [`communities.md`](communities.md) | 커뮤니티·애그리게이터 46행(HN, Reddit, HF, GeekNews, 디시, 에펨, 더쿠, 뽐뿌, 블라인드 등). RSS 형식, 인용 원칙. 6장에 2026-09-30 재검증(디시 AI 활용 갤러리 복원, GummySearch 종료 경고) | 커뮤니티 모니터링과 인용 원칙 |
 | [`newsletters_media.md`](newsletters_media.md) | 뉴스레터·매체·공식 발표·유튜브 67개. 구독 방법, 유료 매체 처리, 벤치마크 부록 | 메일함과 RSS 리더 셋업 |
-| [`econ_lifestyle.md`](econ_lifestyle.md) | 경제·돈·라이프스타일 57개. 정부 조직 개편 반영(국가데이터처, 재정경제부, 정부24+), 트렌드 리포트, 유통 현장 | 에크케형 경제 카드 제작 |
+| [`econ_lifestyle.md`](econ_lifestyle.md) | 경제·돈·라이프스타일 57개. 정부 조직 개편 반영(국가데이터처, 재정경제부, 정부24+), 트렌드 리포트, 유통 현장. 6장에 2026-09-30 재검증(네이버 랭킹 폐지, 네이버페이 증권, 연합뉴스 RSS 부분 검증으로 하향) | 에크케형 경제 카드 제작 |
 | [`../best-practices.md`](../best-practices.md) | 인스타 알고리즘, 독창성 정책(2026-04-30), 광고 표기, 저작권·초상권, AI 생성물 표기, 세무 | 게시 전 법·정책 점검 |
 | [`../landscape.md`](../landscape.md) | 한국 AI·비즈니스·경제 매거진 계정 지형 | 포지셔닝 검토 |
 | `../accounts/` (`ai_freaks_kr.md`, `bizucafe.md`, `ekke_now.md`, `romaan_mag.md`) | 4개 벤치마크 계정 프로필 상세 | 계정별 벤치마크 |
 
 **남은 확인 과제 (사용자가 직접 하면 좋은 것)**
-1. X에서 확인할 것: @AIatMeta와 @metaai 중 현재 계정, @lmarena_ai 개명 여부, 중국 3사 인증 배지, `09_글로벌경제` 매체 핸들
-2. Reddit `.rss`, `techmeme.com/feed.xml`, `producthunt.com/feed`, hnrss 파라미터를 리더에 넣어 실제로 작동하는지 확인
+1. X에서 확인할 것: @AIatMeta와 @metaai 중 현재 계정, 중국 3사 인증 배지, `09_글로벌경제` 매체 핸들(@business·@FT 외), @TheRundownAI·@runwayml·@suno·@bilawalsidhu의 최근 게시일
+2. 리더에 넣어 실제 작동 확인: Reddit `.rss`, `techmeme.com/feed.xml`, `producthunt.com/feed`, hnrss 파라미터는 재검증에서 문서·3자 가이드로 확인됐으니 작동만 보면 됩니다. 연합뉴스 경제 RSS(공식 안내 페이지 미확인), HF Papers 비공식 피드, PyTorchKR RSS, `techcrunch.com/feed/`는 아직 [미검증]
 3. 구글 알리미의 RSS 전달, 네이버 뉴스·카페 키워드 알림 기능이 있는지 확인
-4. 아프니까 사장이다, 리멤버 커뮤니티, 아카라이브 ai101 외 채널의 주소 확인
+4. 세븐일레븐 인스타 핸들, MLB파크 불펜 URL 형식, 뽐뿌 공식 RSS, 한국은행 RSS, 커리어리·AI Explained의 최근 활동, 디스콰이엇 서비스 지속 여부, K-패스 10월 이후 환급 기준. (해결: 아프니까 사장이다·리멤버 커뮤니티·아카라이브 채널 주소는 2026-09-30 재검증에서 확인)
 5. @romaan.mag을 인스타 앱에서 직접 열어 최근 게시물 5~10개의 소재 원본을 기록 → `source-tracing.md` 보강
 6. 한국 AI·경제 텔레그램 채널을 새로 찾아 T3로 한 달 시험
