@@ -4,10 +4,16 @@
 - 목적: @ai_freaks.kr(AI 뉴스·재미), @romaan.mag(AI 해설), @bizucafe(비즈니스 기사 + 코멘트), @ekke.now(돈·경제·라이프스타일) 같은 한국형 매거진 큐레이션 인스타 계정을 운영할 때 **매일 무엇을 보고, 어떻게 한국어 게시물로 바꾸는지** 한 장에 정리합니다.
 - 근거: 같은 폴더의 검증 파일 5개(`x_ai.md`, `source-tracing.md`, `communities.md`, `newsletters_media.md`, `econ_lifestyle.md`)와 `../best-practices.md`(인스타 정책·저작권)
 - **검증 한계**
-  - 이 README를 쓰면서 새 웹 검색은 0회입니다. 1회 시도했지만 워크플로 공유 한도(200회)가 소진돼 거부됐습니다.
-  - 소스의 존재·활동 여부는 위 파일들이 검색으로 확인한 결과를 따릅니다.
+  - 초판을 쓸 때는 새 웹 검색이 0회였습니다. 1회 시도했지만 워크플로 공유 한도(200회)가 소진돼 거부됐습니다. 그래서 소스의 존재·활동 여부는 위 파일들이 검색으로 확인한 결과를 따랐습니다.
+  - **2026-09-30에 재검증을 한 번 더 돌렸습니다.** 세 갈래로 나눠 WebSearch를 썼고(README 사실 점검 59회·46개 항목, `communities.md` 54회·45개 항목, `econ_lifestyle.md` 40회·34개 항목), 검색 스니펫만 보고 페이지를 직접 열지는 않았습니다. 이 README에 반영한 것:
+    - **휴면 의심 해제**: Import AI(474호, 2026-09-28), AINews(2026-09-09호), Latent Space, @_akhaliq, @MistralAI, 튜링포스트 코리아, 더밀크, 롱블랙, @rowancheung(2026-04)
+    - **주소·이름 수정**: Arena 변경 로그 주소, X @lmarena_ai → @arena, 네이버 섹션별 '많이 본 뉴스' 폐지(→ 경제 섹션 + 언론사별 랭킹), 보조금24 → 혜택알리미는 단순 개명이 아닌 개편, 네이버 증권 → 네이버페이 증권, GeekNews RSS 주소 추가
+    - **사실 수정**: Cursor 인수는 2026-06-16 발표·2026-08-14 완료, 디스콰이엇은 2025-10 인수 보도와 2025-12 폐업 표기
+    - **[미검증] 해제**: hnrss 파라미터, Reddit `.rss`의 2026년 작동, Techmeme·Product Hunt 피드, r/MachineLearning, 아카라이브 채널 5개, 아프니까 사장이다·리멤버 주소, @business·@FT 등
+    - **추가**: 디시 AI 활용 갤러리(`communities.md`에서 복원), Reddit 구독자 수 출처 GummySearch의 종료 예정 경고
+    - 제거된 소스는 없습니다. 재검증에서도 확인하지 못한 것(@AIatMeta·@metaai 중 현재 계정, @runwayml·@suno·@TheRundownAI의 X 게시일, AI Explained, 커리어리 활동량, 세븐일레븐 인스타, WSJ·Reuters 등 매체 X 핸들, Artificial Analysis·HF 트렌딩 Spaces·Futurepedia)은 `[미검증]`으로 남겼습니다.
   - 파일에 없던 셋업 팁(구글 알리미, 네이버 키워드 알림, 자동화 도구의 모듈 이름 등)은 **미검증**으로 표기했습니다. 쓰기 전에 직접 확인하세요.
-- 표기: `[확인 2026-MM]` 그 달 활동 확인 · `[이전 조사]` 같은 세션 다른 파일에 근거 · `[미검증]` 이번 조사에서 확인 못 함 · `[휴면 의심]` 최근 활동이 오래됨 · `[개명]` 이름·주소 변경
+- 표기: `[확인 2026-MM]` 그 달 활동 확인 · `[이전 조사]` 같은 세션 다른 파일에 근거 · `[미검증]` 이번 조사에서 확인 못 함 · `[휴면 의심]` 최근 활동이 오래됨 · `[개명]` 이름·주소 변경 · `[개편]` 서비스 구조 변경 · `[종료 의심]` 폐업·종료 정황이 있음
 
 ---
 
@@ -17,7 +23,7 @@
    - BZCF는 해외 1차 발표물(창업자 서한, CEO 에세이, 공동 보도자료, a16z 보고서)과 Bloomberg·FT·TechCrunch·CNBC를 씁니다.
    - 에크케는 DART 감사보고서·잠정실적과 모회사(SBS) 방송 현장을 씁니다.
    - 뉴스레터, 애그리게이터, 커뮤니티는 **소재를 찾는 레이더**로만 쓰고, 출처로는 1차 자료를 적습니다.
-2. **매일 볼 곳은 15개(Tier 1)로 줄였습니다.** 4개 검증 파일에 든 항목은 224개(파일 간 중복 포함)입니다. 니치별로 T1 2~4개를 두고, 나머지는 주 2~3회(T2) 또는 주간·필요 시(T3)로 돌립니다(§3).
+2. **매일 볼 곳은 15개(Tier 1)로 줄였습니다.** 4개 검증 파일에 든 항목은 225개(파일 간 중복 포함, `communities.md` 재검증으로 1행 복원)입니다. 니치별로 T1 2~4개를 두고, 나머지는 주 2~3회(T2) 또는 주간·필요 시(T3)로 돌립니다(§3).
 3. **처음 한 번만 셋업하면 됩니다.**
    - X 비공개 리스트 9개와 알림 6개
    - RSS 리더 폴더 9개
@@ -34,7 +40,7 @@
 7. **같은 소재를 여러 계정이 동시에 다룹니다.** 예를 들어 메타코미디 실적은 두 계정이 하루 차이로 올렸습니다.
    - 차별화 수단: **한국 각도**, **직접 써 보기**, **원자료를 직접 가공한 데이터 카드**, **자체 인터뷰**
 8. **지금 반영할 변경과 시즌 소재**
-   - 개명·폐쇄: xAI→SpaceXAI, LMArena→Arena, 통계청→국가데이터처, 기획재정부 분리, Papers with Code 종료, Sora 종료 (§3-7)
+   - 개명·폐쇄: xAI→SpaceXAI, LMArena→Arena(X @lmarena_ai→@arena), 통계청→국가데이터처, 기획재정부 분리, Papers with Code 종료, Sora 종료, 네이버 섹션별 랭킹 폐지(2020-11) (§3-7)
    - 시즌 소재: OpenAI DevDay(2026-09-29), 『트렌드 코리아 2027』 출간(2026-09-30, 오늘)
 
 ---
@@ -91,7 +97,7 @@
 | AI 괴짜·바이럴 | 2 | X `05_바이럴·크리에이티브`, r/ChatGPT + r/aivideo |
 | AI 이해·해설 | 2 | Hacker News(hnrss), Hugging Face Papers Daily |
 | 비즈니스 | 2 | Techmeme, X `07_비즈니스` + `09_글로벌경제` |
-| 경제·돈·라이프스타일 | 4 | 연합뉴스 경제 RSS, 네이버 경제 랭킹, 정책브리핑 보도자료 RSS, 뽐뿌 재테크포럼 + 알구몬 |
+| 경제·돈·라이프스타일 | 4 | 연합뉴스 경제 RSS, 네이버 경제 섹션 + 언론사별 랭킹, 정책브리핑 보도자료 RSS, 뽐뿌 재테크포럼 + 알구몬 |
 | 한국 특화 | 3 | GeekNews, 디시 특이점이 온다 갤러리, 에펨코리아 포텐 + 더쿠 HOT |
 
 > **계정 컨셉에 따라 바꾸세요.** 위 15개는 네 니치를 모두 다루는 종합형 기준입니다.
@@ -102,15 +108,15 @@
 
 | 티어 | 소스 | 보는 곳 (URL·핸들·RSS) | 쓰는 이유 | 상태·주의 |
 |---|---|---|---|---|
-| **T1** | **빅랩 공식 발표 묶음** | X 리스트 `01_공식발표` + 알림 6개(§4-1) · RSS `https://openai.com/news/rss.xml` · anthropic.com/news · blog.google/technology/ai/ · deepmind.google · ChatGPT 릴리스 노트(help.openai.com) | 모든 AI 뉴스의 1차 원문입니다. 요약본에서 본 소재도 반드시 여기서 확인합니다 | OpenAI RSS [확인]. Anthropic 공식 RSS는 확인 못 함 → X 알림으로 대신. **[개명] @xai → @SpaceXAI(2026-07-06).** @AIatMeta와 @metaai 중 현재 계정은 직접 확인 |
-| **T1** | **The Rundown AI** | therundown.ai 이메일 → 라벨 `AI-NL` | 200만 명 넘게 받는 AI 일간 요약입니다. **빠짐없음 체크리스트**로 씁니다. 한국에는 저녁~밤에 도착합니다 | [확인 2026]. 요약본이라 원문으로 재확인. 창업자 @rowancheung의 2026년 X 게시물은 미확인 → 뉴스레터가 주 채널 |
-| T2 | X `03_리크·벤치마크` | @testingcatalog(알림), @btibor91, @scaling01, @ArtificialAnlys, @chetaslua, @lmarena_ai | 출시 전 리크, 신모델 성적표를 가장 빨리 봅니다 | 리크에는 **[루머]** 라벨. 실례: 'o'로 예고된 상시 에이전트가 실제로는 'dots'로 발표됨. @chetaslua는 단독 게시 금지. @lmarena_ai는 2025-09 이후 미확인 |
+| **T1** | **빅랩 공식 발표 묶음** | X 리스트 `01_공식발표` + 알림 6개(§4-1) · RSS `https://openai.com/news/rss.xml` · anthropic.com/news · blog.google/technology/ai/ · deepmind.google · ChatGPT 릴리스 노트(help.openai.com) | 모든 AI 뉴스의 1차 원문입니다. 요약본에서 본 소재도 반드시 여기서 확인합니다 | OpenAI RSS [확인](옛 blog/rss.xml은 이 주소로 리디렉트). Anthropic 공식 RSS는 확인 못 함 → X 알림으로 대신. **[개명] @xai → @SpaceXAI(2026-07-06, X 핸들 포함) [확인 2026-07].** @AIatMeta와 @metaai 중 현재 계정은 [미검증](검색에서 둘 다 'AI at Meta'로 나옴) → 직접 확인 |
+| **T1** | **The Rundown AI** | therundown.ai 이메일 → 라벨 `AI-NL` | 200만 명 넘게 받는 AI 일간 요약입니다. **빠짐없음 체크리스트**로 씁니다. 한국에는 저녁~밤에 도착합니다 | [확인 2026](therundown.ai에 200만+ 표기 재확인). 요약본이라 원문으로 재확인. 창업자 **@rowancheung [확인 2026-04]**: 2026-04-27 X 게시물에서 '활성 독자 300만에 가까워진다'고 씀(네트워크 전체 기준일 수 있음, [근거](https://x.com/rowancheung/status/2048767013472833869)). 뉴스레터가 주 채널 |
+| T2 | X `03_리크·벤치마크` | @testingcatalog(알림), @btibor91, @scaling01, @ArtificialAnlys, @chetaslua, @arena(구 @lmarena_ai) | 출시 전 리크, 신모델 성적표를 가장 빨리 봅니다 | 리크에는 **[루머]** 라벨. 실례: 'o'로 예고된 상시 에이전트가 실제로는 'dots'로 발표됨. @chetaslua는 단독 게시 금지. **[개명] @lmarena_ai → @arena [확인 2026-06]**(2026-01-28 'LMArena is now Arena' 게시, 2026-06-10 게시물, [근거](https://x.com/arena/status/2016577708831232140)) |
 | T2 | X `06_중국·오픈모델` | @deepseek_ai(알림), @Alibaba_Qwen, @Kimi_Moonshot, @Zai_org, @MiniMax_AI, @huggingface, @op7418 | 중국 모델은 예고 없이 나옵니다 | 공식 계정은 @deepseek_ai 하나뿐(사칭 주의). 중국 3사는 인증 배지를 직접 확인 |
-| T2 | r/LocalLLaMA (+ r/OpenAI, r/singularity) | `https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day` | 오픈 모델 출시·유출에 대한 1차 반응, 직접 돌려 본 후기 | 83.2만(2026-09 스니펫). Reddit RSS의 2026년 작동 여부 [미검증]. 유출은 [루머] 표기 |
+| T2 | r/LocalLLaMA (+ r/OpenAI, r/singularity) | `https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day` | 오픈 모델 출시·유출에 대한 1차 반응, 직접 돌려 본 후기 | 약 80만~83만(3자 트래커, 2026-08~09) [확인 2026-09]. Reddit `.rss`는 2026년에도 작동(3자 가이드 기준, 공식 문서는 아님, [근거](https://www.wprssaggregator.com/reddit-rss-feed/)). 유출은 [루머] 표기 |
 | T2 | The Decoder | the-decoder.com (리더에 사이트 주소 입력) | 모델 출시, 벤치마크, AI 지출 추세 | [확인 2026-09] |
 | T2 | Axios AI+ | axios.com/signup/ai-plus | 평일 일간. Smart Brevity 구조가 카드 한 장의 문법과 거의 같음 | [확인 2026]. 구조만 참고하고 문장은 복제하지 않음 |
 | T2 | TLDR AI | tldr.tech/ai | 평일 링크 모음으로 오픈소스·논문·툴을 빠르게 훑음 | [확인 2026], 약 110만 구독. 스폰서 링크가 섞임 |
-| T3 | 보조 뉴스레터·매체 | The Neuron(theneuron.ai), Ben's Bites(`bensbites.com/feed`, 주 2회 화·목), AINews(news.smol.ai), Last Week in AI(lastweekin.ai, 주간 누락 점검), The Verge AI, CNBC Tech, @WesRoth(2차 속보), @MistralAI | 주간 누락 점검, 톤 참고 | The Neuron은 **[개명]** 주소가 theneuron.ai이고 2025-01 TechnologyAdvice에 인수됨. **AINews는 [휴면 의심]**(최근 확인 2026-02). **@MistralAI는 [휴면 의심]**(최근 확인 2025-06) |
+| T3 | 보조 뉴스레터·매체 | The Neuron(theneuron.ai), Ben's Bites(`bensbites.com/feed`, 주 2회 화·목), AINews(news.smol.ai), Last Week in AI(lastweekin.ai, 주간 누락 점검), The Verge AI, CNBC Tech, @WesRoth(2차 속보), @MistralAI | 주간 누락 점검, 톤 참고 | The Neuron은 **[개명]** 주소가 theneuron.ai이고 2025-01 TechnologyAdvice에 인수됨(옛 주소 theneurondaily.com). **AINews [확인 2026-09]**(2026-09-09호. 지금은 Latent Space의 한 섹션으로 일간 발행, [근거](https://news.smol.ai/issues/26-09-09-not-much/)). **@MistralAI [확인 2026-09]**(2026-09-04 X 게시물, [근거](https://x.com/MistralAI/status/2095951508978209153)) |
 
 ### 3-2. AI 괴짜·바이럴 (ai_freaks형 재미)
 
@@ -119,54 +125,54 @@
 | **T1** | **X `05_바이럴·크리에이티브`** | 핵심 @kimmonismus(Chubby), @minchoi. 리스트 전체는 §4-1 | 신기한 AI 영상과 뉴스 분석(Chubby), 신모델이 나오면 '10 wild examples' 모음(Min Choi) | Chubby [확인 2026-09-29], Min Choi [확인 2026-04]. **예시마다 원작자가 따로 있으니** 개별 크레딧과 허락 필요 |
 | **T1** | **r/ChatGPT + r/aivideo (+ r/aiArt)** | `https://www.reddit.com/r/ChatGPT/top/.rss?t=day` · `.../r/aivideo/top/.rss?t=day` | 웃긴 결과물, 프롬프트 유행, AI 영상 쇼케이스. '이게 AI라고?' 릴스의 본진 | 조작된 '챗GPT 답변' 캡처가 흔함. 영상 재업로드 금지 → 원작자의 인스타·유튜브를 찾아 허락과 태그 |
 | T2 | @venturetwins (Justine Moore, a16z) | x.com/venturetwins | 화제가 된 AI 영상(일본 AI 영상, AI 결혼식)에 투자자 시각 코멘트 | [확인 2026-07]. 영상 원작자를 추적해 크레딧 |
-| T2 | 크리에이티브 툴 공식 | @midjourney(+updates.midjourney.com), @Kling_ai, @ElevenLabs, @pika_labs, @Hailuo_AI, @LumaLabsAI, @bfl_ml | '새로 나온 이상한 기능 따라 해보기' | Midjourney [확인 2026-07], Kling [확인 2026-09-27], ElevenLabs [확인 2026-09-28]. **@runwayml(2025-12), @suno(2025-09)는 [휴면 의심]** → suno.com/release-notes 우선 |
-| T2 | r/StableDiffusion | `.../r/StableDiffusion/top/.rss?t=day` | 오픈 이미지·영상 모델과 ComfyUI 기법이 가장 먼저 공유됨 | 99.9만(2026-08). NSFW와 실존 인물 LoRA는 제외 |
+| T2 | 크리에이티브 툴 공식 | @midjourney(+updates.midjourney.com), @Kling_ai, @ElevenLabs, @pika_labs, @Hailuo_AI, @LumaLabsAI, @bfl_ml | '새로 나온 이상한 기능 따라 해보기' | Midjourney [확인 2026-07], Kling [확인 2026-09-27], ElevenLabs [확인 2026-09-28]. **@runwayml(최근 확인 2025-12), @suno(2025-09)의 2026년 X 게시물은 [미검증]**. 회사는 활동 중(Runway 2026-07-23 모델 라우터 출시, Suno 2026-03-26 v5.5 출시) → 공식 블로그와 suno.com/release-notes 우선 |
+| T2 | r/StableDiffusion | `.../r/StableDiffusion/top/.rss?t=day` | 오픈 이미지·영상 모델과 ComfyUI 기법이 가장 먼저 공유됨 | 약 100만(2026-08-31 998,663명, 하루 글 약 64개, prowlo) [확인 2026-09]. NSFW와 실존 인물 LoRA는 제외 |
 | T2 | 404 Media | 404media.co/tag/ai-slop/ | 근거가 탄탄한 '이상한 AI' 탐사 보도 | [확인 2026]. 일부 회원 전용 |
-| T2 | Product Hunt + HF 트렌딩 Spaces | producthunt.com (Atom `producthunt.com/feed` [미검증]) · huggingface.co/spaces | '써봤다' 툴 카드. 직접 테스트는 오리지널 콘텐츠로 인정받는 데 유리함 | 업보트는 홍보성일 수 있음. 모델 라이선스 확인 |
-| T3 | 저신호·보조 | @EHuanglu, @AngryTomtweets, @AISafetyMemes, @bilawalsidhu(인스타·Threads @bilawal.ai), Two Minute Papers(유튜브), AI 툴 디렉터리(futuretools.io, theresanaiforthat.com, futurepedia.io), @dreamingtulpa(보류 후보) | 소재가 부족한 날 | @EHuanglu는 툴 홍보가 잦음(Higgsfield X 계정은 2026-02 정지). @AngryTomtweets 본인 게시물은 2025-07까지만 확인. @AISafetyMemes는 공포 조장 주의. @bilawalsidhu의 2026년 X 활동은 미확인 |
+| T2 | Product Hunt + HF 트렌딩 Spaces | producthunt.com (Atom `producthunt.com/feed`, 3자 가이드로 확인. 실시간 순위라 다음 날 아침 전날 일간 리더보드를 봄) · huggingface.co/spaces | '써봤다' 툴 카드. 직접 테스트는 오리지널 콘텐츠로 인정받는 데 유리함 | 업보트는 홍보성일 수 있음. 모델 라이선스 확인. 카테고리 피드 슬러그는 [미검증]. HF 트렌딩 Spaces는 재검증에서 검색하지 않음 [미검증](존재는 확실) |
+| T3 | 저신호·보조 | @EHuanglu, @AngryTomtweets, @AISafetyMemes, @bilawalsidhu(인스타·Threads @bilawal.ai), Two Minute Papers(유튜브), AI 툴 디렉터리(futuretools.io, theresanaiforthat.com, futurepedia.io), @dreamingtulpa(보류 후보) | 소재가 부족한 날 | @EHuanglu는 툴 홍보가 잦음(Higgsfield X 계정은 2026-02 정지). @AngryTomtweets 본인 게시물은 2025-07까지만 확인. @AISafetyMemes는 공포 조장 주의. @bilawalsidhu의 2026년 X 활동은 [미검증]. 툴 디렉터리는 Future Tools 뉴스 [확인 2026-09], TAAFT·Future Tools의 등록 수는 자체 주장, Futurepedia는 [미검증] |
 
 ### 3-3. AI 이해·해설 (로만형)
 
 | 티어 | 소스 | 보는 곳 | 쓰는 이유 | 상태·주의 |
 |---|---|---|---|---|
-| **T1** | **Hacker News** | `https://hnrss.org/newest?points=100` · `https://hnrss.org/frontpage` · 키워드 `https://hnrss.org/newest?q=OpenAI` | 테크·스타트업 사건에 업계인 댓글이 붙음 → '과장 걷어내기' 해설 재료 | hnrss는 제3자 서비스이고 파라미터는 [미검증]. 댓글은 'Hacker News 댓글'로 한정해 인용 |
-| **T1** | **Hugging Face Papers Daily** | huggingface.co/papers (Trending은 /papers/trending) · X @HuggingPapers | 연구 소재. 논문에 연결된 Spaces 데모를 직접 돌려 해설 근거로 씀 | **Papers with Code는 2025-07-24 종료.** 프리프린트는 '입증됐다' 대신 '논문에 따르면' |
-| T2 | X `02_핵심인물` + `04_큐레이터·해설` | @emollick, @karpathy, @simonw, @vitrupo, @rohanpaul_ai, @OfficialLoganK, @demishassabis 등(§4-1) | '왜 중요한가' 관점. 인용 카드 소재 | **직함 변경:** Hassabis는 2026-08-05 DeepMind 의장 겸 Alphabet 수석과학자, Karpathy는 2026-05-19 Anthropic 합류. **@_akhaliq는 [휴면 의심]**(2024-09) → @HuggingPapers |
+| **T1** | **Hacker News** | `https://hnrss.org/newest?points=100` · `https://hnrss.org/frontpage` · 키워드 `https://hnrss.org/newest?q=OpenAI` | 테크·스타트업 사건에 업계인 댓글이 붙음 → '과장 걷어내기' 해설 재료 | hnrss는 제3자 서비스. 파라미터 `q=`, `points=`, `comments=`, `count=`(최대 100)와 `&` 조합은 hnrss.org 문서로 확인 [확인 2026-09]([근거](https://hnrss.org/)). 댓글은 'Hacker News 댓글'로 한정해 인용 |
+| **T1** | **Hugging Face Papers Daily** | huggingface.co/papers (Trending은 /papers/trending) · X @HuggingPapers | 연구 소재. 논문에 연결된 Spaces 데모를 직접 돌려 해설 근거로 씀 | **Papers with Code는 2025-07-24 종료**(도메인은 HF Trending Papers로 리디렉트) [확인 2026-09]. 프리프린트는 '입증됐다' 대신 '논문에 따르면' |
+| T2 | X `02_핵심인물` + `04_큐레이터·해설` | @emollick, @karpathy, @simonw, @vitrupo, @rohanpaul_ai, @OfficialLoganK, @demishassabis 등(§4-1) | '왜 중요한가' 관점. 인용 카드 소재 | **직함 변경:** Hassabis는 2026-08-05 DeepMind 의장 겸 Alphabet 수석과학자, Karpathy는 2026-05-19 Anthropic 사전학습 팀 합류. **@_akhaliq [확인 2026-09]**(2026-05·06·09 X 게시물, [근거](https://x.com/_akhaliq/status/2097726716861186348)). 논문 피드는 @HuggingPapers와 같이 봄 |
 | T2 | One Useful Thing (Ethan Mollick) | `oneusefulthing.org/feed` | 비개발자 눈높이 해설. 한국어 카드로 옮기기 가장 쉬움 | [확인 2026-08]. 에세이 전문 번역은 허락 필요 |
 | T2 | Simon Willison's Weblog | simonwillison.net | 신모델을 직접 써 본 기록, 가격 대비 성능 | [확인 2026-09]. 개발자 관점이라 풀어 쓸 것 |
 | T2 | Interconnects (Nathan Lambert) | `interconnects.ai/feed` | 오픈 모델과 중국 모델이 왜 중요한가 | [확인 2026]. **필자가 2026-06 Ai2를 떠남** → 'Ai2 연구자'로 소개하면 틀림 |
-| T2 | 순위판: Arena, Artificial Analysis, OpenRouter | arena.ai/company/leaderboard-changelog · artificialanalysis.ai · openrouter.ai/rankings | '벤치마크 1위와 실사용 1위는 다르다' 해설, '이번 주 AI 순위' 카드 | **[개명] LMArena → Arena(2026-01-28).** 지수 버전·조회일 표기. OpenRouter는 지표 단위(토큰/요청)를 페이지에서 확인 |
+| T2 | 순위판: Arena, Artificial Analysis, OpenRouter | arena.ai/blog/leaderboard-changelog · artificialanalysis.ai · openrouter.ai/rankings | '벤치마크 1위와 실사용 1위는 다르다' 해설, '이번 주 AI 순위' 카드 | **[개명] LMArena → Arena(2026-01-28, 옛 lmarena.ai는 arena.ai로 리디렉트).** 변경 로그 주소는 /company/가 아니라 /blog/ 아래([근거](https://arena.ai/blog/leaderboard-changelog)), 2026-07 모델 추가까지 확인 [확인 2026-07]. 지수 버전·조회일 표기. OpenRouter는 토큰 기준 주간 순위와 텍스트 요청 점유율이 따로 있으니 어느 지표·어느 주인지 적음([근거](https://openrouter.ai/rankings)). Artificial Analysis는 재검증에서 검색하지 않음 [미검증](존재는 확실) |
 | T2 | MIT Technology Review (The Algorithm, 월요일) | technologyreview.com | 깊이 있는 해설 기사 | [확인 2026-09]. 일부 유료 |
-| T2 | r/MachineLearning | `.../r/MachineLearning/top/.rss?t=week` | 과장된 논문·벤치마크에 대한 연구자 반론 | [미검증](존재는 확실) |
-| T3 | 장문·연간 | Import AI(jack-clark.net), The Batch(deeplearning.ai/the-batch), Latent Space(`latent.space/feed`), Dwarkesh Podcast(`dwarkesh.com/feed`), AI Explained(youtube.com/@aiexplained-official), Epoch AI(epoch.ai/data-insights), Stanford AI Index 2026 | 인터뷰 발언 3가지, 연례 '숫자로 보는 AI' | **Import AI는 [휴면 의심]**(최근 확인 459호, 2026-06-01). The Batch [확인 2026-09], Dwarkesh [확인 2026-09]. Latent Space·AI Explained는 2026년 회차 미확인 |
+| T2 | r/MachineLearning | `.../r/MachineLearning/top/.rss?t=week` | 과장된 논문·벤치마크에 대한 연구자 반론 | 310만(GummySearch, 2026-08-27 갱신) [확인 2026-08] |
+| T3 | 장문·연간 | Import AI(jack-clark.net), The Batch(deeplearning.ai/the-batch), Latent Space(`latent.space/feed`), Dwarkesh Podcast(`dwarkesh.com/feed`), AI Explained(youtube.com/@aiexplained-official), Epoch AI(epoch.ai/data-insights), Stanford AI Index 2026 | 인터뷰 발언 3가지, 연례 '숫자로 보는 AI' | **Import AI [확인 2026-09]**(473호 2026-09-21, 474호 2026-09-28, [근거](https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/)). The Batch [확인 2026-09], Dwarkesh [확인 2026-09]. **Latent Space [확인 2026]**(2026년 글 latent.space/p/2026, AINews를 섹션으로 흡수, [근거](https://www.latent.space/p/2026)). AI Explained는 2026년 개별 영상 [미검증] |
 
 ### 3-4. 비즈니스 (bizucafe형)
 
 | 티어 | 소스 | 보는 곳 | 쓰는 이유 | 상태·주의 |
 |---|---|---|---|---|
-| **T1** | **Techmeme** | techmeme.com · 시간순 techmeme.com/river · RSS `techmeme.com/feed.xml`[미검증] | BZCF가 쓰는 원천(Bloomberg, TechCrunch, CNBC, FT)이 대부분 여기에 먼저 걸림. 클러스터에 붙은 기사 수로 뉴스 크기를 판단 | [이전 조사]. X @Techmeme 게시물에는 링크가 없음 → 원 기사까지 확인 |
-| **T1** | **X `07_비즈니스` + `09_글로벌경제`** | @a16z, @nvidianewsroom, @cursor_ai + @business, @FT, @WSJ, @Reuters 등(§4-1) | 창업자 서한, CEO 발표, VC 보고서 같은 BZCF 원본 유형 ①과 해외 경제지 속보 | `09` 리스트의 매체 핸들은 [미검증](존재는 확실). Cursor는 2026-06 SpaceX에 인수됨 |
+| **T1** | **Techmeme** | techmeme.com · 시간순 techmeme.com/river · RSS `techmeme.com/feed.xml`(피드 디렉터리 등록으로 확인, 검색 요약 기준) | BZCF가 쓰는 원천(Bloomberg, TechCrunch, CNBC, FT)이 대부분 여기에 먼저 걸림. 클러스터에 붙은 기사 수로 뉴스 크기를 판단 | [이전 조사]. X @Techmeme 게시물에는 링크가 없음 → 원 기사까지 확인 |
+| **T1** | **X `07_비즈니스` + `09_글로벌경제`** | @a16z, @nvidianewsroom, @cursor_ai + @business, @FT, @WSJ, @Reuters 등(§4-1) | 창업자 서한, CEO 발표, VC 보고서 같은 BZCF 원본 유형 ①과 해외 경제지 속보 | `09` 리스트 매체 핸들 중 @business·@FT는 [확인 2026-09](`econ_lifestyle.md` 재검증), 나머지(@WSJ, @Reuters 등)는 [미검증](존재는 확실). **Cursor는 2026-06-16 SpaceX 인수 발표, 2026-08-14 인수 완료**([근거](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/)) |
 | T2 | TechCrunch | RSS `techcrunch.com/feed/`[미검증] | 투자·출시 속보. BZCF가 실제로 인용한 원천(Cursor 밸류에이션, 스타인버거) | 투자 수치는 회사 공식 발표와 대조 |
 | T2 | Bloomberg Technology, The Information, FT (무료 헤드라인) | 무료 헤드라인 뉴스레터 → 라벨 `BIZ-NL` | 단독 포착. BZCF의 Lovable(Bloomberg)과 K자형 경제(FT) 사례 | **유료 기사는 매체명 + 날짜 + 요지만.** 전문 번역·캡처 금지 |
 | T2 | a16z | a16z.com/newsletter | 'VC가 투자하겠다는 분야 N개'. BZCF가 Big Ideas 2026을 약 10일 뒤 번역 | 포트폴리오 홍보 성격을 감안 |
 | T2 | Stratechery, Platformer | stratechery.com · platformer.news | 해석 관점. Platformer는 인스타·메타 정책 레이더도 겸함 | [미검증]. 유료 부분은 요지만 |
-| T2 | GitHub Trending | 비공식 RSS mshibanami.github.io/GitHubTrendingRSS/ | 바이럴 오픈소스가 비즈니스 뉴스로 번지는 초기 신호(OpenClaw → 개발자의 OpenAI 합류, 2026-02) | 제3자 RSS라 끊길 수 있음. 스타 조작 레포 주의 |
-| T2 | 블라인드 토픽 베스트 | teamblind.com/kr/topics/토픽-베스트 (로그인) | 연봉, 성과급, 구조조정, 사내 AI 도입 분위기가 기사보다 먼저 드러남 | **명예훼손 위험이 큼.** 캡처 금지, 기사나 공식 입장으로 교차 확인 |
+| T2 | GitHub Trending | 비공식 RSS mshibanami.github.io/GitHubTrendingRSS/ | 바이럴 오픈소스가 비즈니스 뉴스로 번지는 초기 신호(OpenClaw → 개발자의 OpenAI 합류, 2026-02) | 제3자 RSS라 끊길 수 있음(일간·주간·월간·언어별 피드 확인, 2026년 갱신일은 [미검증]). 스타 조작 레포 주의 |
+| T2 | 블라인드 토픽 베스트 | teamblind.com/kr/topics/토픽-베스트 (로그인) | 연봉, 성과급, 구조조정, 사내 AI 도입 분위기가 기사보다 먼저 드러남 | [확인 2026-06]. **명예훼손 위험이 큼.** 캡처 금지, 기사나 공식 입장으로 교차 확인 |
 | T2 | 국내 스타트업·창업 영상 | 아웃스탠딩(outstanding.kr) · 플래텀(platum.kr) · EO Korea(유튜브 채널 ID `UCQ2DWm5Md16Dc3xRwwhVE7Q`) · youtube.com/@ycombinator | 한국 회사 이야기, 창업자 발언 인용 카드. BZCF 유튜브의 원천 유형(해외 인터뷰 영상) | 아웃스탠딩 [확인 2026]. 영상 번역·재편집 게시는 허락 필요 |
-| T3 | 해외 보조 | CNBC, WSJ, Reuters, The Economist, Business Insider, Morning Brew, CB Insights, Visual Capitalist, Lenny's Newsletter, Sequoia(Training Data) | '해외에선 이렇다' 비교 각도 | 대부분 [미검증](존재는 확실). 차트 이미지 재사용 금지, 원 데이터 출처를 인용 |
-| T3 | 국내 보조 | 더밀크(themiilk.com), 티타임즈(유튜브 @TTimesTV), 아이보스(i-boss.co.kr), 리멤버 커뮤니티, 디스콰이엇(disquiet.io), r/Entrepreneur | 해외 비즈니스의 한국어 해설, 마케팅 실무, 인디 창업 | **더밀크는 [휴면 의심]**(2026 활동 미확인), **디스콰이엇은 [휴면 의심]**(2025~2026 활동 미확인). 리멤버 주소 [미검증] |
+| T3 | 해외 보조 | CNBC, WSJ, Reuters, The Economist, Business Insider, Morning Brew, CB Insights, Visual Capitalist, Lenny's Newsletter, Sequoia(Training Data) | '해외에선 이렇다' 비교 각도 | Morning Brew·Visual Capitalist·CB Insights는 [확인 2026](`econ_lifestyle.md` 재검증). WSJ·Reuters·The Economist·Business Insider 등 나머지는 [미검증](존재는 확실). 차트 이미지 재사용 금지, 원 데이터 출처를 인용(Visual Capitalist는 별도 라이선스 사이트가 있음) |
+| T3 | 국내 보조 | 더밀크(themiilk.com), 티타임즈(유튜브 @TTimesTV), 아이보스(i-boss.co.kr), 리멤버 커뮤니티, 디스콰이엇(disquiet.io), r/Entrepreneur | 해외 비즈니스의 한국어 해설, 마케팅 실무, 인디 창업 | **더밀크 [확인 2026]**(CES 2026 특집, [근거](https://themiilk.com/collections/351)). **디스콰이엇은 [종료 의심]**: THE VC 검색 요약에 2025-10-30 픽셀릭(릴레잇 운영사) 인수 보도와 2025-12 폐업 표기가 있음([근거](https://thevc.kr/disquiet)) → 최근 글 날짜를 확인하기 전에는 아카이브로만 참고. 리멤버는 community.rememberapp.co.kr 주소 확인(2026 활동량은 [미검증]). 아이보스 [확인 2026] |
 
 ### 3-5. 경제·돈·라이프스타일 (ekke형)
 
 | 티어 | 소스 | 보는 곳 | 쓰는 이유 | 상태·주의 |
 |---|---|---|---|---|
-| **T1** | **연합뉴스 경제** | RSS `https://www.yna.co.kr/rss/economy.xml` | 가장 빠르고 건조한 팩트 요약. 모든 게시물의 사실 기준점 | RSS 주소는 검색 스니펫 기준. 사진·그래픽은 유료 라이선스라 쓰지 않음 |
-| **T1** | **네이버 뉴스 경제 랭킹** | news.naver.com/section/101 | 한국 대중이 지금 실제로 읽는 경제 이슈 | 포털은 원문이 아님. 언론사 원문과 원자료로 확인 |
-| **T1** | **대한민국 정책브리핑 보도자료** | RSS `https://www.korea.kr/rss/pressrelease.xml` (RSS 안내 korea.kr/etc/rss.do) | 전 부처 발표가 한곳에 있음. '이번 달부터 바뀌는 것'은 저장·공유가 많은 포맷 | [확인]. 공공누리 유형(출처표시, 변경금지 등) 확인 |
-| **T1** | **뽐뿌 재테크포럼 + 알구몬** | ppomppu.co.kr/zboard/zboard.php?id=money · algumon.com (키워드 알림) | 특판 적금, 카드 혜택, 금리 변경, 앱테크가 금융사 발표 직후 올라옴. 알구몬은 여러 커뮤니티의 핫딜을 한 화면에 모음 | 금융사 공식 공지로 확인하고 게시 시점을 적음. 알구몬은 에펨코리아 핫딜을 수집하지 않는 것으로 알려짐 |
-| T2 (**1~4월은 T1**) | DART 전자공시 | dart.fss.or.kr (관심 기업 공시 알림) · opendart.fss.or.kr | 에크케 'OOO는 이렇게 벌고 씁니다'의 **확인된 원천**. 공시 원문이라 저작권 부담이 적음 | 연결·별도, 기준 연도 명시. 매체마다 증감률이 달라 원문 대조 |
-| T2 | 한국은행·ECOS + 국가데이터처·KOSIS | bok.or.kr · ecos.bok.or.kr · **mods.go.kr** · kosis.kr | 금리, 물가, 고용, 가계동향. 공표 일정이 고정돼 캘린더로 미리 계획 가능 | **[개명] 통계청 → 국가데이터처(2025-10-01).** 이전 자료는 '통계청 발표'로 표기 |
-| T2 | 금융위원회 + 금감원 파인 | fsc.go.kr · fss.or.kr · fine.fss.or.kr | 청년 금융상품, 소비자경보, 이번 달 금리 비교 | '예정'과 '확정'을 구분. 특정 상품 추천은 광고로 오인될 수 있음 |
+| **T1** | **연합뉴스 경제** | RSS `https://www.yna.co.kr/rss/economy.xml` | 가장 빠르고 건조한 팩트 요약. 모든 게시물의 사실 기준점 | RSS 주소는 제3자 문서·코드(GitHub 스니펫)에서만 확인했고 연합뉴스 공식 RSS 안내 페이지는 [미검증] → 리더에 등록하기 전에 피드가 열리는지 확인. 사진·그래픽은 유료 라이선스라 쓰지 않음 |
+| **T1** | **네이버 뉴스 경제 섹션 + 언론사별 랭킹** | news.naver.com/section/101 · 네이버 뉴스 '랭킹' 메뉴(언론사별 많이 본 뉴스. 한경·매경 등 경제지 위주) | 한국 대중이 지금 실제로 읽는 경제 이슈. news.naver.com은 Similarweb 기준 2026-03 국내 뉴스·미디어 사이트 방문 1위 | **전체·섹션별 '많이 본 뉴스'는 2020-11에 폐지**돼 '경제 랭킹' 메뉴는 없음. 언론사별 랭킹만 남음([근거](https://www.newspim.com/news/view/20201023000042)). 포털은 원문이 아님. 언론사 원문과 원자료로 확인 |
+| **T1** | **대한민국 정책브리핑 보도자료** | RSS `https://www.korea.kr/rss/pressrelease.xml` (RSS 안내 korea.kr/etc/rss.do) | 전 부처 발표가 한곳에 있음. '이번 달부터 바뀌는 것'은 저장·공유가 많은 포맷 | [확인 2026-09](korea.kr/etc/rss.do에 보도자료 RSS로 나옴). 공공누리 유형(출처표시, 변경금지 등) 확인 |
+| **T1** | **뽐뿌 재테크포럼 + 알구몬** | ppomppu.co.kr/zboard/zboard.php?id=money · algumon.com (키워드 알림) | 특판 적금, 카드 혜택, 금리 변경, 앱테크가 금융사 발표 직후 올라옴. 알구몬은 여러 커뮤니티의 핫딜을 한 화면에 모음 | 뽐뿌 재테크포럼(id=money) [확인 2026-09], 알구몬(웹 algumon.com/n/deal, 앱 2026-09-01 업데이트) [확인 2026-09]. 뽐뿌 공식 RSS는 [미검증]. 금융사 공식 공지로 확인하고 게시 시점을 적음. 알구몬은 에펨코리아 핫딜을 수집하지 않는 것으로 알려짐 |
+| T2 (**1~4월은 T1**) | DART 전자공시 | dart.fss.or.kr (관심 기업 공시 알림) · opendart.fss.or.kr | 에크케 'OOO는 이렇게 벌고 씁니다'의 **확인된 원천**. 공시 원문이라 저작권 부담이 적음 | [확인 2026-09]. 연결·별도, 기준 연도 명시. 매체마다 증감률이 달라 원문 대조 |
+| T2 | 한국은행·ECOS + 국가데이터처·KOSIS | bok.or.kr · ecos.bok.or.kr · **mods.go.kr** · kosis.kr | 금리, 물가, 고용, 가계동향. 공표 일정이 고정돼 캘린더로 미리 계획 가능 | **[개명] 통계청 → 국가데이터처(2025-10-01, 기재부 외청에서 국무총리 소속으로 승격).** 이전 자료는 '통계청 발표'로 표기. 한국은행·ECOS [확인 2026-09](2026-09 「금융안정 상황」 게시), 한은 RSS 제공 여부는 [미검증] |
+| T2 | 금융위원회 + 금감원 파인 | fsc.go.kr · fss.or.kr · fine.fss.or.kr | 청년 금융상품, 소비자경보, 이번 달 금리 비교 | [확인 2026-09]. 2025-09-25 발표된 금융위 해체·금감원 분리 개편안은 철회돼 두 기관 모두 현 체제 유지. 파인은 계좌 통합조회·숨은 금융자산·금융상품 비교 메뉴를 봄. '예정'과 '확정'을 구분. 특정 상품 추천은 광고로 오인될 수 있음 |
 | T2 | 정부24+ 혜택알리미 + 온통청년 | plus.gov.kr/portal/benefitV2/ · youthcenter.go.kr · bokjiro.go.kr | '놓치면 손해 혜택 모음'. 2030 타깃에서 저장률이 높은 소재 | **[개명] 보조금24 → 정부24+ 혜택알리미.** 지역·소득 조건과 마감일 명시 |
 | T2 | 경제지 원문 | 한국경제 RSS 목록 `https://www.hankyung.com/feed` · 매일경제(mk.co.kr) · 이데일리 | 재테크, 세금, 소비·유통 원문. 비즈까페형 '기사 + 코멘트'의 한국판 | 한경 프리미엄 등 유료 기사는 요약 공유 주의 |
 | T2 | 증권사 리포트 | **markets.hankyung.com/consensus** · finance.naver.com/research | 업계 판도 해설 카드의 근거 | **[개명] 한경 컨센서스 주소가 바뀜.** 차트 캡처와 PDF 재배포 금지, 투자 권유처럼 보이지 않게 |
